@@ -1,0 +1,324 @@
+::selection {
+    background-color: rgb(29, 94, 158);
+    color: gold;
+}
+
+.ieee_logo {
+    width: 150px;
+    height: 150px;
+    float: top;
+    float: left;
+}
+
+.nav {
+    float: right;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav .reg-btn a {
+    color: gold;
+    text-align: center;
+}
+
+.nav .reg-btn {
+    font-size: 18px;
+    border-radius: 10px;
+    background: rgb(29, 94, 158);
+    width: 140px;
+    height: 35px;
+    border: none;
+}
+
+.head {
+    font-size: 40px;
+    font-family: 'Audiowide';
+    margin-left: 35%;
+}
+
+.sir {
+    text-align: center;
+    box-shadow: 2px 2px 15px 2px rgb(187, 25, 25);
+    width: 35%;
+    height: 270px;
+    margin-left: 35%;
+    border-radius: 15px;
+    margin-bottom: 20%;
+}
+
+.sir img {
+    margin-top: 5%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.technical,
+.Editorial,
+.pr,
+.Social,
+.event,
+.Design {
+    margin: 25px 0;
+}
+
+.main {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+}
+
+.head2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.president,
+.vice,
+.sectry,
+.tres {
+    text-align: center;
+    box-shadow: 2px 2px 15px 2px rgb(29, 158, 94);
+    width: 25%;
+    height: 270px;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-bottom: 20%;
+}
+
+.jntsectry1,
+.jntsectry2 {
+    text-align: center;
+    box-shadow: 2px 2px 15px 2px rgb(29, 158, 94);
+    width: 55%;
+    height: 270px;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-bottom: 20%;
+}
+
+.president img,
+.vice img,
+.sectry img,
+.tres img {
+    margin-top: 5%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.jntsectry1 img {
+    margin-top: 5%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.jntsectry2 img {
+    margin-top: 5%;
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sir .title,
+.president .title,
+.vice .title,
+.sectry .title,
+.jntsectry1 .title,
+.jntsectry2 .title,
+.tres .title {
+    color: gray;
+    font-size: 16px;
+}
+
+.sir .name,
+.president .name,
+.vice .name,
+.sectry .name,
+.jntsectry1 .name,
+.jntsectry2 .name,
+.tres .name {
+    color: black;
+    font-size: 21px;
+    font-weight: 500px;
+}
+
+.tech,
+.edt,
+.prm,
+.smh,
+.evnt,
+.des {
+    text-align: center;
+    box-shadow: 2px 2px 15px 2px rgb(29, 94, 158);
+    width: 20%;
+    height: 270px;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+
+.tech img,
+.edt img,
+.prm img,
+.smh img,
+.evnt img,
+.des img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.tech .title,
+.edt .title,
+.prm .title,
+.smh .title,
+.evnt .title,
+.des .title {
+    color: gray;
+    font-size: 16px;
+}
+
+.tech .name,
+.edt .name,
+.prm .name,
+.smh .name,
+.evnt .name,
+.des .name {
+    color: black;
+    font-size: 21px;
+    font-weight: 500px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 25%;
+}
+
+.flip {
+    background-color: transparent;
+    width: 55%;
+    height: 270px;
+}
+
+.inners {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    margin-top: 15%;
+    margin-left: 20%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    margin-top: 15%;
+    margin-left: 20%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip:hover .inner {
+    transform: rotateY(180deg);
+}
+
+.flip:hover .inners {
+    transform: rotateY(180deg);
+}
+
+.jntsectry1,
+.jntsectry2,
+.tech,
+.edt,
+.prm,
+.smh,
+.evnt,
+.des,
+.intro {
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.president,
+.vice,
+.sectry,
+.tres {
+    position: absolute;
+    width: 50%;
+    height: 270px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-left: 50%;
+}
+
+.intro {
+    transform: rotateY(180deg);
+    background-color: rgb(64, 136, 209);
+    box-shadow: 2px 2px 15px 2px black;
+    margin-left: -28%;
+    border-radius: 15px;
+}
+
+.intro h3 {
+    font-family: 'Tangerine', Arial;
+    font-size: 35px;
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    padding: 1px;
+    padding-right: 60px;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+.social p {
+    float: left;
+    padding-right: 800px;
+    padding-bottom: 10px;
+}
+
+.socialogo {
+    float: top;
+    width: 200px;
+    height: 200px;
+    margin-left: 42%;
+}
+
+.end {
+    text-align: center;
+}
+
+.end a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(29, 27, 27);
+    padding: 15px 5px;
+}

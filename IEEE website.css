@@ -1,0 +1,110 @@
+::selection {
+    background-color: rgb(29, 94, 158);
+    color: gold;
+}
+
+
+/*body {
+    background-image: linear-gradient(-206deg, #5ed9ff 0%, #ff00ff 100%);
+    background-size: cover;
+}*/
+
+.ieee_logo {
+    width: 150px;
+    height: 150px;
+    float: top;
+    float: left;
+}
+
+.nav {
+    float: right;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    color: rgb(29, 94, 158);
+    font-size: 16px;
+}
+
+.nav .reg-btn a {
+    color: gold;
+    text-align: center;
+}
+
+.nav .reg-btn {
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgb(29, 94, 158);
+    width: 140px;
+    height: 35px;
+    border: none;
+}
+
+.head h1 {
+    color: rgb(29, 94, 158);
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 13%;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*overflow: hidden;*/
+    /*animation: typing 3.5s steps(33, end), blink-caret 1s step-end infinite;*/
+    text-fill-color: transparent;
+    background-image: linear-gradient(-225deg, #154257 0%, #26bace 29%, #e931d9 67%, #ffee00 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-size: 50% auto;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 100% center;
+    }
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    padding: 1px;
+    padding-right: 60px;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+.social p {
+    float: left;
+    padding-right: 800px;
+    padding-bottom: 10px;
+}
+
+.socialogo {
+    float: top;
+    width: 200px;
+    height: 200px;
+    margin-left: 42%;
+}
+
+.end {
+    text-align: center;
+}
+
+.end a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(29, 27, 27);
+    padding: 15px 5px;
+}
