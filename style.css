@@ -1,0 +1,38 @@
+body {}
+
+nav {
+    border-radius: 0px;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    font-size: large;
+}
+
+.team_row {
+    height: 5vh;
+}
+
+.about_content p {
+    font-size: large;
+}
+
+.contact_form {
+    background: rgba( 255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 8.5px);
+    -webkit-backdrop-filter: blur( 8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.contact_form_innerFields {
+    background-color: unset;
+}
+
+.glass {
+    background: rgb(239 227 227 / 50%);
+    box-shadow: 0 8px 32px 0 rgb(76 83 178 / 37%);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}

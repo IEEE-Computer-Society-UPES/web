@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+::selection {
+    background-color: rgb(29, 94, 158);
+    color: gold;
+}
+
+body {
+    background-image: linear-gradient(-206deg, #5effaf 0%, #002fff 100%);
+    background-size: cover;
+}
+
+.ieee_logo {
+    width: 150px;
+    height: 150px;
+    float: top;
+    float: left;
+}
+
+.nav {
+    float: right;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav .reg-btn a {
+    color: gold;
+    text-align: center;
+}
+
+.nav .reg-btn {
+    font-size: 18px;
+    border-radius: 10px;
+    background: rgb(29, 94, 158);
+    width: 140px;
+    height: 35px;
+    border: none;
+}
+
+.head {
+    font-size: 100px;
+    margin-left: 22%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-fill-color: transparent;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-size: 50% auto;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 100% center;
+    }
+}
+
+.location {
+    margin-left: 6%;
+    width: 50%;
+}
+
+.loca {
+    width: 35px;
+    height: 42.5px;
+}
+
+.email {
+    width: 42px;
+    height: 42px;
+}
+
+.lnkdn {
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+.emailid,
+.lnk {
+    text-decoration: none;
+    color: black;
+}
+
+.cnt {
+    border-radius: 30px;
+    width: 500px;
+    height: 222px;
+    float: right;
+    margin-top: -12%;
+    margin-right: 10%;
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    padding: 1px;
+    padding-right: 60px;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+.social p {
+    float: left;
+    padding-right: 800px;
+    padding-bottom: 10px;
+}
+
+.socialogo {
+    margin-top: 7%;
+    float: top;
+    width: 200px;
+    height: 200px;
+    margin-left: 42%;
+}
+
+.end {
+    text-align: center;
+}
+
+.end a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(29, 27, 27);
+    padding: 15px 5px;
+}
