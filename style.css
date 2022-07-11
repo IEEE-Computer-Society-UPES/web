@@ -1,12 +1,18 @@
 body {}
 
 nav {
-    background-image: linear-gradient(to right, rgb(37, 41, 39) 0%, rgb(19, 179, 118) 69%);
+    background-color: black;
     font-weight: 500;
+    color: white;
+}
+
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 nav li a {
-    color: rgb(0, 0, 0) !important;
+    color: white !important;
 }
 
 .team_row {
