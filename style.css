@@ -15,6 +15,25 @@ nav li a {
     color: white !important;
 }
 
+.active {
+    color: aqua !important;
+    font-weight: bold;
+}
+
+
+/* li:hover {
+    background-color: cyan;
+} */
+
+
+/* .navbar-nav>.active>a {
+    background-color: aqua;
+}
+
+li:hover {
+    background-color: aqua;
+} */
+
 .team_row {
     height: 5vh;
 }
